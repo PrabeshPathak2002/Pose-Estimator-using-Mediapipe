@@ -53,7 +53,7 @@ pose_estimator = PoseEstimator()
 - `.gitignore` – Files and folders to ignore in git.
 
 ## Screenshot
-![alt text](https://github.com/PrabeshPathak2002/Pose-Estimator-using-Mediapipe/blob/main/Screenshot.png"Screenshot")
+![alt text](https://github.com/PrabeshPathak2002/Pose-Estimator-using-Mediapipe/blob/main/Screenshot.png "Screenshot")
 
 ## Pose Landmarks
-![alt text]([https://github.com/PrabeshPathak2002/Pose-Estimator-using-Mediapipe/blob/main/Screenshot.png](https://www.researchgate.net/publication/372215767/figure/fig1/AS:11431281173353112@1688826988871/Mediapipe-Pose-landmarks.png)"Landmarks")
+![alt text]([https://github.com/PrabeshPathak2002/Pose-Estimator-using-Mediapipe/blob/main/Screenshot.png](https://www.researchgate.net/publication/372215767/figure/fig1/AS:11431281173353112@1688826988871/Mediapipe-Pose-landmarks.png) "Landmarks")
