@@ -42,6 +42,7 @@ class PoseEstimator:
             return None
 
         imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        img = cv2.resize(img, (720, 1080)) 
         self.results = self.pose.process(imgRGB)
 
         if self.results.pose_landmarks:
@@ -72,7 +73,7 @@ class PoseEstimator:
                     cx, cy = int(lm.x * w), int(lm.y * h)
                     lmList.append((id, cx, cy))
                     if draw:
-                        cv2.circle(img, (cx, cy), 15, (0, 255, 0), cv2.FILLED)
+                        cv2.circle(img, (cx, cy), 10, (0, 255, 0), cv2.FILLED)
         return lmList
 
 
